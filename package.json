@@ -1,7 +1,7 @@
 {
   "name": "task_master",
   "version": "0.1.0",
-  "homepage": "https://github.com/AndalusianKnight/taskmaster",
+  "homepage": "https://andalusianknight.github.io/taskmaster/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
