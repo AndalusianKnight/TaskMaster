@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AndalusianKnight/taskmaster/static/css/main.04764a3e.css",
+    "main.js": "/AndalusianKnight/taskmaster/static/js/main.091bfd01.js",
+    "static/js/453.43eec124.chunk.js": "/AndalusianKnight/taskmaster/static/js/453.43eec124.chunk.js",
+    "index.html": "/AndalusianKnight/taskmaster/index.html",
+    "main.04764a3e.css.map": "/AndalusianKnight/taskmaster/static/css/main.04764a3e.css.map",
+    "main.091bfd01.js.map": "/AndalusianKnight/taskmaster/static/js/main.091bfd01.js.map",
+    "453.43eec124.chunk.js.map": "/AndalusianKnight/taskmaster/static/js/453.43eec124.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04764a3e.css",
+    "static/js/main.091bfd01.js"
+  ]
+}
