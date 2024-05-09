@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal'; 
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom'; // React Router for navigation
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'; // Recharts for bar charts
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'; // Recharts for bar charts https://recharts.org/en-US/
 import './App.css'; // CSS file
 
 // TaskMaster Statistics Page
@@ -87,7 +87,8 @@ const App = () => {
     if (a.complete !== b.complete) {
       return a.complete ? 1 : -1;
     } else if (sortType === 'priority') {
-      return a.priority.localeCompare(b.priority);
+      const priorityValues = {'High': 1, 'Medium': 2, 'Low': 3};
+      return priorityValues[a.priority] - priorityValues[b.priority];
     } else if (sortType === 'alphabetical') {
       return a.title.localeCompare(b.title);
     }
@@ -126,7 +127,7 @@ const App = () => {
   }; // Toggle task completion
 
   return (
-    <Router>
+    <Router basename="/taskmaster">
       <div className="app">
         {/* Header and buttons */}
         <h1 className="header">TaskMaster</h1>
